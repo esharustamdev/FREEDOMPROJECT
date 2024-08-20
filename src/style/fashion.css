@@ -1,0 +1,68 @@
+.fashionContainer {
+  margin-left: 12.2vw;
+  margin-right: 38.3vw;
+  border: 1px solid black;
+  align-items: center;
+  margin-top: 10px;
+}
+.fashionHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.fashionDiv1 {
+  padding: 10px;
+  border: 1px solid black;
+}
+.fashionHeader h2 {
+  text-transform: uppercase;
+}
+.fashionMain {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 10px;
+}
+.fashionContent h3 {
+  font-size: 1vw;
+}
+.fashionContent h2 {
+  font-size: 1vw;
+}
+.fashionImg img {
+  width: 10vw;
+}
+.fashionDiv1 {
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 990px) {
+  .fashionContainer {
+    margin-left: 12.1vw;
+    margin-right: 12vw;
+  }
+  .fashionImg img {
+    width: 20vw;
+  }
+  .fashionContent h3 {
+    font-size: 1.5vw;
+  }
+  .fashionContent h2 {
+    font-size: 1.5vw;
+  }
+}
+@media (max-width: 760px) {
+  .fashionHeader h2 {
+    font-size: 3vw;
+  }
+}
+@media (max-width: 500px) {
+  .fashionContainer {
+    margin: 0vw;
+    padding: 10px;
+    border: none;
+  }
+  .fashionHeader h2 {
+    font-size: 4vw;
+  }
+}

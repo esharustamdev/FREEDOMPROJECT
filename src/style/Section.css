@@ -1,0 +1,327 @@
+.sectionRightDiv3 p {
+  font-size: 1vw;
+}
+.sectionRightDiv3 h2 {
+  font-size: 1vw;
+}
+.sectionCont {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 12.1vw;
+  margin-right: 12vw;
+
+  /* padding: 10px 10px 10px 10px; */
+}
+.sectionLeftDiv1Img {
+  width: 100%;
+  width: 100%;
+  display: block;
+  padding-top: 10px;
+}
+.sectionLeftDiv1Img img {
+  width: 47vw;
+}
+.sectionLeftDiv1Heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.sectionLeftDiv1Heading p {
+  font-size: 1.2vw;
+}
+.sectionRightDiv2 {
+  padding: 10px;
+}
+.sectionRightDiv2 img {
+  width: 24vw;
+}
+.sectionRightMain {
+  border: 1px solid black;
+}
+.sectionLeft {
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sectionRight {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sectionRightDiv3 h4 {
+  font-size: 0.7vw;
+}
+.sectionRightDiv1 {
+  padding: 10px;
+}
+.sectionRightDiv1 h2 {
+  font-size: 1.4vw;
+}
+.sectionRightDiv3 {
+  padding: 0px 10px;
+}
+.sectionRightDiv4 {
+  display: flex;
+  padding: 5px 0px 0px 10px;
+  gap: 10px;
+}
+.sectionRightDiv5 {
+  display: flex;
+  padding: 5px 10px;
+  gap: 5px;
+}
+.sectionRightDiv6 {
+  display: flex;
+  padding: 5px 10px;
+  gap: 5px;
+}
+.sectionRightDiv4img img {
+  width: 9vw;
+}
+.sectionRightDiv4Para h2 {
+  font-size: 0.8vw;
+}
+.sectionLeftDiv1 {
+  position: relative;
+}
+.sectionLeftDiv1Para {
+  position: absolute;
+  bottom: 1%;
+  padding: 10px;
+  left: 0%;
+  background: #00000083;
+}
+
+.sectionLeftDiv1Para h2 {
+  color: white;
+}
+.sectionLeftDiv1Para h3 {
+  color: white;
+}
+.sectionLeftDiv1Para p {
+  color: white;
+}
+.sectionLeftDiv2 {
+  display: flex;
+  gap: 10px;
+  padding: 10px 10px;
+  /* align-items: center; */
+  border: 1px solid black;
+}
+.sectionLeftDiv2Img img {
+  width: 8vw;
+}
+.sectionLeftDiv2Para h3 {
+  font-size: 1vw;
+}
+.sectionRightDiv5Last {
+  /* padding-top: 10px; */
+  /* border-radius: 10px; */
+  border: 1px solid black;
+}
+.sectionRightDiv5P {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  /* border: 1px solid black; */
+}
+.sectionRightDiv5Last h2 {
+  font-size: 1.5vw;
+  color: white;
+}
+.sectionRightDiv5Last h2 {
+  background-color: #3498db;
+  padding: 10px;
+}
+.sectionRightDiv5P span {
+  color: #3498db;
+  font-weight: 700;
+}
+@media (max-width: 1100px) {
+  .sectionLeftDiv2Img img {
+    width: 15vw;
+  }
+}
+@media (max-width: 990px) {
+  .sectionCont {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12.1vw;
+    margin-right: 12vw;
+  }
+  .sectionLeftDiv1Img img {
+    width: 73.5vw;
+  }
+  .sectionLeftDiv2Img img {
+    width: 15vw;
+  }
+  .sectionLeftDiv2Para h3 {
+    font-size: 1.5vw;
+  }
+  .sectionRightDiv2 img {
+    width: 74vw;
+  }
+  .sectionRightDiv1 h2 {
+    font-size: 2vw;
+  }
+  .sectionRightDiv3 h2 {
+    font-size: 1.5vw;
+  }
+  .sectionRightDiv3 p {
+    font-size: 1.5vw;
+  }
+  .sectionRightDiv4img img {
+    width: 20vw;
+  }
+
+  .sectionRightDiv4Para h2 {
+    font-size: 1.5vw;
+  }
+  .sectionRightDiv4 {
+    padding-top: 20px;
+  }
+  .sectionRightDiv2 img {
+    width: 73vw;
+  }
+  .sectionRightDiv2 {
+    padding: 10px;
+  }
+  .sectionRightMain {
+    padding: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .sectionRightDiv2 img {
+    width: 72vw;
+  }
+  .sectionRightDiv2 {
+    padding: 10px;
+  }
+  .sectionRightMain {
+    padding: 0px;
+  }
+}
+@media (max-width: 762px) {
+  .sectionLeftDiv1Heading p {
+    font-size: 3vw;
+  }
+  .sectionLeftDiv1Para {
+    position: absolute;
+    bottom: 1%;
+    padding: 10px;
+    left: 0%;
+    background: #00000083;
+  }
+
+  .sectionLeftDiv1Para h2 {
+    color: white;
+    font-size: 2vw;
+  }
+  .sectionLeftDiv1Para h3 {
+    color: white;
+  }
+  .sectionLeftDiv1Para p {
+    color: white;
+  }
+  .sectionLeftDiv1Img img {
+    width: 72.5vw;
+  }
+  .sectionLeftDiv2Img img {
+    width: 25vw;
+  }
+  .sectionLeftDiv2Para h3 {
+    font-size: 2vw;
+  }
+  .sectionRightDiv1 h2 {
+    font-size: 4vw;
+  }
+  .sectionRightDiv4img img {
+    width: 30vw;
+  }
+  .sectionRightDiv4Para h2 {
+    font-size: 2vw;
+  }
+  .sectionRightDiv3 p {
+    font-size: 3vw;
+  }
+  .sectionRightDiv3 h2 {
+    font-size: 2.5vw;
+  }
+}
+@media (max-width: 500px) {
+  .sectionLeftDiv1Para {
+    position: absolute;
+    bottom: 1%;
+    padding: 10px;
+    width: 73.5vw;
+    left: 0%;
+    background: #00000083;
+  }
+
+  .sectionLeftDiv1Para h2 {
+    color: white;
+    font-size: 2vw;
+  }
+  .sectionLeftDiv1Para h3 {
+    color: white;
+  }
+  .sectionLeftDiv1Para p {
+    color: white;
+  }
+  .sectionLeftDiv1Img img {
+    width: 73.5vw;
+    padding: 0%;
+    height: 60vw;
+  }
+  .sectionLeftDiv1 {
+    padding: 0px;
+  }
+  .sectionLeftDiv1Img {
+    padding-top: 5px;
+  }
+  .sectionLeft {
+    padding: 5px;
+  }
+  .sectionLeftDiv2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionLeftDiv2Main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+  .sectionRightDiv2 img {
+    width: 94.1vw;
+  }
+  .sectionRightDiv2 {
+    padding: 0px;
+  }
+  .sectionRightDiv3 p {
+    font-size: 2.5vw;
+  }
+  .sectionRightDiv3 h2 {
+    font-size: 2.5vw;
+  }
+  .sectionCont {
+    margin-left: 0vw;
+    margin-right: 0vw;
+    padding: 10px;
+  }
+  .sectionRightMain {
+    border: none;
+  }
+  .sectionRightDiv1 h2 {
+    font-size: 4vw;
+  }
+  .sectionRightDiv4img img {
+    width: 30vw;
+  }
+  .sectionRightDiv4Para h2 {
+    font-size: 2.8vw;
+  }
+}

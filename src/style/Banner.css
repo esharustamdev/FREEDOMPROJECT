@@ -1,0 +1,158 @@
+.bannerDivRight {
+  display: flex;
+  flex-direction: column;
+}
+.bannerCont {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+.bannerDivLeft img {
+  width: 50vw;
+  height: 29.2vw;
+}
+.bannerRightDiv1Img1 img {
+  width: 25vw;
+}
+.bannerRightDiv1Img2 img {
+  width: 25vw;
+  height: 15vw;
+}
+.bannerRightDiv1 {
+  position: relative;
+}
+.bannerRightDiv2 {
+  position: relative;
+}
+
+.bannerRightDivPara {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  background-color: #26191986;
+  padding: 10px;
+}
+.bannerRightDivPara p {
+  color: white;
+}
+.bannerRightDivPara h2 {
+  font-size: 1vw;
+  color: white;
+}
+@media (max-width: 990px) {
+  .bannerCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bannerDivLeft img {
+    width: 78vw;
+    height: 50vw;
+  }
+  .bannerDivRight {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .bannerRightDiv1Img1 img {
+    width: 38.1vw;
+  }
+  .bannerRightDiv1Img2 img {
+    width: 38vw;
+    height: 21.8vw;
+  }
+  .bannerRightDiv2 {
+    position: relative;
+  }
+  .bannerRightDivPara {
+    /* position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 39vw;
+
+    background-color: #26191986;
+    padding: 10px; */
+  }
+}
+@media (max-width: 1140px) {
+  .bannerRightDivPara {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    background-color: #26191986;
+    padding: 10px;
+    width: 25vw;
+  }
+  .bannerRightDivPara h2 {
+    font-size: 1vw;
+    color: white;
+  }
+}
+@media (max-width: 768px) {
+  .bannerRightDivPara {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    background-color: #26191986;
+    padding: 10px;
+    width: 38vw;
+  }
+  .bannerRightDivPara h2 {
+    font-size: 1.9vw;
+    color: white;
+  }
+  .bannerRightDivPara p {
+    font-size: 1.9vw;
+    color: white;
+  }
+}
+
+@media (max-width: 600px) {
+  .bannerRightDivPara {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    background-color: #26191986;
+    padding: 10px;
+    width: 38vw;
+  }
+  .bannerRightDivPara h2 {
+    font-size: 1.9vw;
+    color: white;
+  }
+  .bannerRightDivPara p {
+    font-size: 1.9vw;
+    color: white;
+  }
+}
+@media (max-width: 500px) {
+  .bannerDivRight {
+    display: flex;
+    flex-direction: column;
+  }
+  .bannerRightDiv1Img1 img {
+    width: 78vw;
+  }
+  .bannerRightDiv1Img2 img {
+    width: 78vw;
+    height: 50vw;
+  }
+  .bannerRightDivPara {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    background-color: #26191986;
+    padding: 10px;
+    width: 78vw;
+  }
+  .bannerRightDivPara h2 {
+    font-size: 3vw;
+    color: white;
+  }
+  .bannerRightDivPara p {
+    font-size: 2vw;
+    color: white;
+  }
+}

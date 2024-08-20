@@ -1,0 +1,294 @@
+.educationCont {
+  /* border: 1px solid black; */
+  margin-left: 12.1vw;
+  margin-right: 38.3vw;
+  margin-top: 1vw;
+  display: flex;
+  gap: 10px;
+}
+.educationLeft {
+  border: 1px solid black;
+  position: relative;
+  flex: 1;
+}
+.educationRight {
+  border: 1px solid black;
+  position: relative;
+  flex: 1;
+}
+.educationDiv1Heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.educationDiv1Heading h1 {
+  font-size: 1.5vw;
+}
+.eduDiv1img {
+  padding: 10px;
+}
+.eduRightimg {
+  padding: 10px;
+}
+.eduDiv1img img {
+  width: 25vw;
+}
+.eduRightimg img {
+  width: 20vw;
+}
+.eduDiv1Para {
+  position: absolute;
+  bottom: 57%;
+  right: 3%;
+  padding: 10px;
+  left: 3%;
+  background-color: rgba(0, 0, 0, 0.488);
+}
+.eduRightPara {
+  position: absolute;
+  bottom: 67%;
+  left: 3%;
+  right: 3%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.488);
+}
+
+.eduRightPara h3 {
+  font-size: 1vw;
+  color: white;
+}
+.eduRightPara p {
+  color: white;
+}
+.eduDiv1Para h3 {
+  color: white;
+  font-size: 1vw;
+}
+.eduDiv1Para p {
+  color: white;
+}
+.eduContentImg img {
+  width: 11vw;
+}
+.eduContentPara h3 {
+  font-size: 0.7vw;
+}
+.eduContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+}
+.eduContentDiv1 {
+  border: 1px solid black;
+  padding: 8px;
+}
+.eduContentRightImg img {
+  width: 8.5vw;
+}
+.eduContentPara p {
+  font-size: 0.8vw;
+}
+@media (max-width: 1500px) {
+  .eduRightPara {
+    display: none;
+  }
+  .eduDiv1Para {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .eduRightPara {
+    display: none;
+  }
+  .eduDiv1Para {
+    display: none;
+  }
+  .eduDiv1img img {
+    width: 27vw;
+    height: 10vw;
+  }
+  .eduRightimg img {
+    width: 18vw;
+    height: 10vw;
+  }
+  .eduContentImg img {
+    width: 11vw;
+  }
+  .eduContentRightImg img {
+    width: 7vw;
+  }
+}
+@media (max-width: 990px) {
+  .educationCont {
+    margin-left: 12.1vw;
+    margin-right: 12vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .eduDiv1img img {
+    width: 74vw;
+    height: 30vw;
+  }
+  .eduDiv1Para {
+    position: absolute;
+    width: 74vw;
+    height: 12vw;
+    bottom: 56%;
+    right: 1%;
+    padding: 10px;
+    left: 1.5%;
+    background-color: rgba(0, 0, 0, 0.488);
+  }
+  .eduDiv1Para h3 {
+    font-size: 2vw;
+  }
+  .eduContentImg img {
+    width: 34vw;
+  }
+  .eduContentPara h3 {
+    font-size: 1.5vw;
+  }
+  .eduContentPara p {
+    font-size: 2vw;
+  }
+  .eduRightimg img {
+    width: 74vw;
+  }
+  .eduRightPara {
+    position: absolute;
+    bottom: 56%;
+    left: 1.2%;
+    width: 74vw;
+    height: 10vw;
+    right: 3%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.488);
+  }
+  .eduRightPara h3 {
+    font-size: 2vw;
+  }
+  .eduContentRightImg img {
+    width: 34vw;
+  }
+}
+@media (max-width: 761px) {
+  .eduDiv1img img {
+    width: 72vw;
+  }
+  .eduDiv1Para {
+    position: absolute;
+    width: 71.5vw;
+    height: 20vw;
+    bottom: 56.5%;
+    padding: 10px;
+    left: 2%;
+    background-color: rgba(0, 0, 0, 0.488);
+  }
+  .eduContent {
+    padding: 5px;
+  }
+  .eduContentImg img {
+    width: 29vw;
+  }
+  .eduContentRightImg img {
+    width: 32vw;
+  }
+}
+@media (max-width: 500px) {
+  .educationCont {
+    margin: 0vw;
+    padding: 10px;
+  }
+  .eduDiv1img {
+    /* padding: 10px; */
+  }
+  .eduDiv1img img {
+    width: 91vw;
+  }
+  .educationDiv1Heading h1 {
+    font-size: 4vw;
+  }
+  .eduDiv1Para {
+    position: absolute;
+    width: 91vw;
+    height: 20vw;
+    bottom: 56%;
+    padding: 10px;
+    left: 2%;
+    background-color: rgba(0, 0, 0, 0.488);
+  }
+  .eduDiv1Para h3 {
+    font-size: 3vw;
+  }
+  .eduRightimg img {
+    width: 90vw;
+  }
+  .eduRightPara {
+    position: absolute;
+    bottom: 56%;
+    left: 2%;
+    width: 91vw;
+    height: 19vw;
+    right: 3%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.488);
+  }
+  .eduRightPara h3 {
+    font-size: 3vw;
+  }
+  .eduContent {
+    padding: 5px;
+  }
+  .eduContentPara h3 {
+    font-size: 2.5vw;
+  }
+  .eduContentPara p {
+    font-size: 2.5vw;
+  }
+  .eduContentRightImg img {
+    width: 40vw;
+  }
+  .eduContentImg img {
+    width: 39vw;
+  }
+}
+@media (max-width: 400px) {
+  .educationCont {
+    margin: 0vw;
+    padding: 10px;
+  }
+  .eduDiv1img {
+    padding: 10px;
+  }
+  .eduDiv1img img {
+    width: 89vw;
+  }
+  .eduDiv1Para {
+    position: absolute;
+    width: 88vw;
+    height: 22vw;
+    bottom: 56%;
+    /* right: 2%; */
+    padding: 10px;
+    left: 3%;
+    background-color: rgba(0, 0, 0, 0.488);
+  }
+  .eduRightimg img {
+    width: 89vw;
+  }
+  .eduRightPara {
+    position: absolute;
+    bottom: 56%;
+    left: 3%;
+    width: 88vw;
+    height: 19vw;
+    right: 3%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.488);
+  }
+  .eduContentRightImg img {
+    width: 38vw;
+  }
+}

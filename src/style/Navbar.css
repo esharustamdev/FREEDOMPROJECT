@@ -1,0 +1,100 @@
+.navHeadLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+}
+.navHead {
+  background-color: red;
+  text-align: center;
+  padding: 2px;
+}
+.navHeadLogoDiv2 img {
+  width: 5vw;
+}
+.navHead h3 {
+  color: white;
+}
+.navLinks ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 5px;
+}
+.navLinks ul li {
+  list-style: none;
+}
+.navLinks ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+}
+.navHeadBars {
+  display: none;
+}
+.navLinks hr {
+  display: none;
+}
+.navxbars {
+  display: none;
+}
+@media (max-width: 990px) {
+  .navContainer {
+    /* position: relative; */
+  }
+  .navHeadLogoDiv1 {
+    display: none;
+  }
+  .navHeadLogoDiv3 {
+    display: none;
+  }
+  .navHeadBars {
+    display: block;
+  }
+  .navHeadBars i {
+    font-size: 3vw;
+  }
+  .navLinks {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 60%;
+    height: 140%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    z-index: 9;
+  }
+  .navLinks.activenavLinks {
+    display: block;
+  }
+  .navLinks ul li {
+    /* padding: 5px; */
+  }
+  .navLinks ul {
+    padding-top: 70px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+    gap: 10px;
+  }
+  .navLinks hr {
+    display: block;
+  }
+  .navxbars {
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  .navxbars i {
+    font-size: 3vw;
+  }
+  @media (max-width: 500px) {
+    .navHeadLogoDiv2 img {
+      width: 15vw;
+    }
+  }
+}
