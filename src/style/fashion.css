@@ -50,6 +50,9 @@
   .fashionContent h2 {
     font-size: 1.5vw;
   }
+  .fashionContent p {
+    font-size: 1.5vw;
+  }
 }
 @media (max-width: 760px) {
   .fashionHeader h2 {
@@ -64,5 +67,8 @@
   }
   .fashionHeader h2 {
     font-size: 4vw;
+  }
+  .fashionContent p {
+    font-size: 2vw;
   }
 }

@@ -141,9 +141,18 @@
   color: #3498db;
   font-weight: 700;
 }
+.sectionRightDiv4Para p {
+  font-size: 1vw;
+}
+.sectionLeftDiv2Para p {
+  font-size: 1vw;
+}
 @media (max-width: 1100px) {
   .sectionLeftDiv2Img img {
     width: 15vw;
+  }
+  .sectionLeftDiv2Para p {
+    font-size: 1.2vw;
   }
 }
 @media (max-width: 990px) {
@@ -193,6 +202,12 @@
   .sectionRightMain {
     padding: 0px;
   }
+  .sectionLeftDiv2Para p {
+    font-size: 1.5vw;
+  }
+  .sectionRightDiv4Para p {
+    font-size: 1.3vw;
+  }
 }
 @media (max-width: 600px) {
   .sectionRightDiv2 img {
@@ -203,6 +218,9 @@
   }
   .sectionRightMain {
     padding: 0px;
+  }
+  .sectionLeftDiv2Para p {
+    font-size: 1.5vw;
   }
 }
 @media (max-width: 762px) {
@@ -250,6 +268,12 @@
   }
   .sectionRightDiv3 h2 {
     font-size: 2.5vw;
+  }
+  .sectionRightDiv4Para p {
+    font-size: 2vw;
+  }
+  .sectionLeftDiv2Para p {
+    font-size: 2vw;
   }
 }
 @media (max-width: 500px) {
@@ -323,5 +347,11 @@
   }
   .sectionRightDiv4Para h2 {
     font-size: 2.8vw;
+  }
+  .sectionRightDiv4Para p {
+    font-size: 2.5vw;
+  }
+  .sectionLeftDiv2Para p {
+    font-size: 2.5vw;
   }
 }

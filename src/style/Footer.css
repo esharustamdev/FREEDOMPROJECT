@@ -28,3 +28,17 @@
   padding: 50px;
   margin-top: 10px;
 }
+@media (max-width: 500px) {
+  .footerDiv12 {
+    padding: 20px;
+  }
+  .footerDiv12 h2 {
+    font-size: 4vw;
+  }
+  .footerDiv1 img {
+    width: 50vw;
+  }
+  .footerDiv12 p {
+    font-size: 4vw;
+  }
+}
